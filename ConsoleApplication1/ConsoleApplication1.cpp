@@ -3,11 +3,13 @@
 
 #include <iostream>
 #include "ConsoleApplication1.h"
+#include "Dragon.h"
 
 
 int main()
 {
-    ConsoleApplication1::Dragon myDragon("Smaug", 300, 500);
+
+    Dragon myDragon("Smaug", 300, 500);
     myDragon.displayInfo();
     myDragon.breatheFire();
 
