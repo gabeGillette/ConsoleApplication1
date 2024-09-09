@@ -2,10 +2,17 @@
 //
 
 #include <iostream>
+#include "ConsoleApplication1.h"
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    ConsoleApplication1::Dragon myDragon("Smaug", 300, 500);
+    myDragon.displayInfo();
+    myDragon.breatheFire();
+
+    return 0;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
